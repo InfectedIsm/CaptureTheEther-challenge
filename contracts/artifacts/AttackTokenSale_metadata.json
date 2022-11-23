@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "sendEtherToContract",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "receive",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/10-1_TokenSale.sol": "AttackTokenSale"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/10-1_TokenSale.sol": {
+			"keccak256": "0x66f4ad744b3a100e4a38e61da70f2fe5ba15acc33c65b84e0d8d6b8034917391",
+			"urls": [
+				"bzzr://b20ccc76a8d96d2b7788a505db475038ba0266880faf5b3e7543e5e72e8aee46"
+			]
+		}
+	},
+	"version": 1
+}
